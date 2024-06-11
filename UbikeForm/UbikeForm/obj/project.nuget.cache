@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "aYN7J2iog4HaqM5M6x+whRgW/h0AshLgqpWJE9jH2mkCZ9MJI+2wf86D6H1fGkasCOsxaj5rVf82SulgKBEVJw==",
+  "success": true,
+  "projectFilePath": "F:\\CC2_Csharp_WPF\\UbikeForm\\UbikeForm\\UbikeForm.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\xu4we\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

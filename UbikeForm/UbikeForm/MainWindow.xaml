@@ -1,0 +1,34 @@
+﻿<Window x:Class="UbikeForm.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:UbikeForm"
+        mc:Ignorable="d"
+        Title="北市Ubike即時資訊查詢" Height="450" Width="800" Loaded="Window_Loaded">
+    <Grid HorizontalAlignment="Center" Width="800" Height="435" VerticalAlignment="Bottom">
+        <StackPanel Orientation="Horizontal" Background="Green" Margin="0,0,440,355" Height="60" VerticalAlignment="Bottom" HorizontalAlignment="Right" Width="360">
+            <Label Width="110" Height="35" FontSize="20">請選擇區域</Label>
+            <ComboBox Width="150" Height="30" FontSize="18" x:Name="comArea">
+                <ComboBoxItem>大安區</ComboBoxItem>
+                <ComboBoxItem>大同區</ComboBoxItem>
+                <ComboBoxItem>士林區</ComboBoxItem>
+                <ComboBoxItem>文山區</ComboBoxItem>
+                <ComboBoxItem>中正區</ComboBoxItem>
+                <ComboBoxItem>中山區</ComboBoxItem>
+                <ComboBoxItem>內湖區</ComboBoxItem>
+                <ComboBoxItem>北投區</ComboBoxItem>
+                <ComboBoxItem>松山區</ComboBoxItem>
+                <ComboBoxItem>南港區</ComboBoxItem>
+                <ComboBoxItem>信義區</ComboBoxItem>
+                <ComboBoxItem>萬華區</ComboBoxItem>
+                <ComboBoxItem>臺大公館校區</ComboBoxItem>
+            </ComboBox>
+            <Button x:Name="btnQry" FontSize="20" Height="30" Width="50" Background="LightCoral" Click="btnQry_Click">查詢</Button>
+        </StackPanel>
+        <DataGrid  FontSize="12" x:Name="gridData" Background="LightYellow" Margin="0,105,0,0" Height="301" 
+               VerticalAlignment="Top" HorizontalAlignment="Center" Width="780">
+
+        </DataGrid>
+    </Grid>
+</Window>
