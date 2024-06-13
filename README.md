@@ -9,6 +9,6 @@ https://youtu.be/_D9mM4t8ezg
 內容:使用WPF應用程式，從Northwnd資料庫中撈取客戶資料，使用者依國家別可以查詢該國家別所有客戶資料。
 https://youtu.be/3T3WMHPKxGE
 
-專案:MyWeb
+專案:MyWeb(僅上傳部分程式碼)
 內容:使用.net core MVC架構，從Northwnd資料庫中撈取客戶資料，有實作RESTful Api，新增客戶資料。
 https://youtu.be/k2ui7gn59ok
