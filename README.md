@@ -3,3 +3,6 @@
 
 專案:UbikeForm
 內容:使用WPF應用程式串聯"YouBike2.0臺北市公共自行車即時資訊"opendata達到查詢台北各區的Ubike站點資訊。
+
+專案:MyCusList
+內容:使用WPF應用程式，從Northwnd資料庫中撈取客戶資料，使用者依國家別可以查詢該國家別所有客戶資料。
